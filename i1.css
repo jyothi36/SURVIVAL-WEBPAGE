@@ -1,0 +1,50 @@
+.body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.col{
+    color:white;
+    text-align: center;
+    font-size: 18px;
+    float:left;
+    margin-top:5px;
+}
+.but{
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.r{
+	 height: 30px;
+}
+.move{
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 7px;
+}
+.r1{
+    background-image: url('i4.jpg');
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:orange(255, 255, 255);
+
+}
+.r2{
+    background-image: url('w3.jpg');
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:blue;
+
+}
+.magnify{
+    transition: transform.2s;
+}
+.magnify:hover{
+    transform: scale(1.1);
+}
